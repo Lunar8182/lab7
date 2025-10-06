@@ -5,7 +5,7 @@ import pytest
 from presidio_anonymizer.operators import Encrypt, AESCipher
 from presidio_anonymizer.entities import InvalidParamError
 
-
+#t
 @mock.patch.object(AESCipher, "encrypt")
 def test_given_anonymize_then_aes_encrypt_called_and_its_result_is_returned(
     mock_encrypt,
