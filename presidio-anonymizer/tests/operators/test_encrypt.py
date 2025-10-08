@@ -52,9 +52,6 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_val
 
     mock_is_valid_key_size.return_value = False
 
-
-    mock_is_valid_key_size.return_value = False
-
     with pytest.raises(
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
@@ -68,7 +65,6 @@ def test_operator_name():
 
 def test_operator_type():
     assert Encrypt().operator_type() == OperatorType.Anonymize
-    assert Encrypt().operator_type() == OperatorType.Anonymize
 
 @pytest.mark.parametrize("key", [
     "a" * 16,  
@@ -79,5 +75,4 @@ def test_operator_type():
     "f" * 32, 
 ])
 def test_valid_keys(key):
-    Encrypt().validate(params={"key": key})
     Encrypt().validate(params={"key": key})
