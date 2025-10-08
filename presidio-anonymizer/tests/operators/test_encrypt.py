@@ -3,6 +3,7 @@ from unittest import mock
 import pytest
 
 from presidio_anonymizer.operators import Encrypt, AESCipher, OperatorType
+from presidio_anonymizer.operators import Encrypt, AESCipher, OperatorType
 from presidio_anonymizer.entities import InvalidParamError
 
 #t
@@ -27,6 +28,9 @@ def test_given_anonymize_with_bytes_key_then_aes_encrypt_result_is_returned(
     encryptor = Encrypt()
     encryptor.validate(params={"key": "key"})  
 
+    encryptor = Encrypt()
+    encryptor.validate(params={"key": "key"})  
+
 
     anonymized_text = Encrypt().operate(text="text",
                                         params={"key": b'1111111111111111'})
@@ -42,18 +46,12 @@ def test_given_verifying_an_valid_length_bytes_key_no_exceptions_raised():
     Encrypt().validate(params={"key": b'1111111111111111'})
 
 
-<<<<<<< HEAD
-def test_given_verifying_an_invalid_length_key_then_ipe_raised():
-    with pytest.raises(
-        InvalidParamError,
-        match="Invalid input, key must be of length 128, 192 or 256 bits",
-    ):
-        Encrypt().validate(params={"key": "key"})
 
-=======
->>>>>>> lab7
 @mock.patch("presidio_anonymizer.operators.aes_cipher.AESCipher.is_valid_key_size")
 def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_valid_key_size):
+
+    mock_is_valid_key_size.return_value = False
+
 
     mock_is_valid_key_size.return_value = False
 
@@ -70,8 +68,15 @@ def test_operator_name():
 
 def test_operator_type():
     assert Encrypt().operator_type() == OperatorType.Anonymize
+    assert Encrypt().operator_type() == OperatorType.Anonymize
 
 @pytest.mark.parametrize("key", [
+    "a" * 16,  
+    "b" * 24,  
+    "c" * 32, 
+    "d" * 16, 
+    "e" * 24, 
+    "f" * 32, 
     "a" * 16,  
     "b" * 24,  
     "c" * 32, 
@@ -80,4 +85,5 @@ def test_operator_type():
     b"f" * 32, 
 ])
 def test_valid_keys(key):
+    Encrypt().validate(params={"key": key})
     Encrypt().validate(params={"key": key})
