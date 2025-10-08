@@ -38,8 +38,8 @@ def test_given_verifying_an_valid_length_key_no_exceptions_raised():
 def test_given_verifying_an_valid_length_bytes_key_no_exceptions_raised():
     Encrypt().validate(params={"key": b'1111111111111111'})
 
-
-def test_given_verifying_an_invalid_length_key_then_ipe_raised():
+@mock.patch("presidio_anonymizer.operators.aes_cipher.AESCipher.is_valid_key_size", return_value=False)
+def test_given_verifying_an_invalid_length_key_then_ipe_raised(mock_is_valid_key_size):
     with pytest.raises(
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
