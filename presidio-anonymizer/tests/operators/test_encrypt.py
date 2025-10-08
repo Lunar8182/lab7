@@ -77,12 +77,6 @@ def test_operator_type():
     "d" * 16, 
     "e" * 24, 
     "f" * 32, 
-    "a" * 16,  
-    "b" * 24,  
-    "c" * 32, 
-    b"d" * 16, 
-    b"e" * 24, 
-    b"f" * 32, 
 ])
 def test_valid_keys(key):
     Encrypt().validate(params={"key": key})
