@@ -42,6 +42,7 @@ def test_given_verifying_an_valid_length_bytes_key_no_exceptions_raised():
     Encrypt().validate(params={"key": b'1111111111111111'})
 
 
+<<<<<<< HEAD
 def test_given_verifying_an_invalid_length_key_then_ipe_raised():
     with pytest.raises(
         InvalidParamError,
@@ -49,6 +50,8 @@ def test_given_verifying_an_invalid_length_key_then_ipe_raised():
     ):
         Encrypt().validate(params={"key": "key"})
 
+=======
+>>>>>>> lab7
 @mock.patch("presidio_anonymizer.operators.aes_cipher.AESCipher.is_valid_key_size")
 def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_valid_key_size):
 

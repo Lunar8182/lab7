@@ -1,6 +1,7 @@
 from asyncio.log import logger
 import pytest
 
+
 from presidio_anonymizer.entities import InvalidParamError, RecognizerResult
 
 
@@ -286,7 +287,7 @@ def test_given_negative_start_or_endpoint_then_we_fail(start, end):
         create_recognizer_result("entity", 0, start, end)
 
 from unittest import mock
-@mock.patch.object(RecognizerResult, "logger")
+@mock.patch.object("presidio_anonymizer.operators.encrypt.logger")
 def test_logger(mock_logger):
     create_recognizer_result("entity", 0.85, 0, 10)
 
