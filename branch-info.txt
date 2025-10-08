@@ -8,20 +8,20 @@ Branches in this repo (with details):
     6c36dc7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T14:02:28Z | Auto-update branch-info.txt
     7b7e4a9 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-06T10:02:16-04:00 | Initial commit
 - lab7
-  SHA: af11e319ba1b23ba938460a9f321f0cbe72290c5
-  Commits: 6
+  SHA: 4fb9dde7790be25f4cf83905728f890f5ac1639a
+  Commits: 8
   Recent commits:
+    4fb9dde | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:58:03Z | #
+    b25ca3e | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:57:18Z | #
     af11e31 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:47:10Z | fixing the lab7 branch
     17f9dbb | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T01:08:57Z | more fixes
     bb8d27f | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-06T18:25:54Z | #
-    50fe74d | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-06T18:09:45Z | Finished lab
-    6c36dc7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T14:02:28Z | Auto-update branch-info.txt
 - main
-  SHA: e5bb22af46c51bdf342fd5af4a8e83a3e6e852d8
-  Commits: 22
+  SHA: 73b427446f5419996f584fb59864c8910af78ad8
+  Commits: 23
   Recent commits:
+    73b4274 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T18:50:39Z | Auto-update branch-info.txt
     e5bb22a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T18:50:36Z | Auto-update branch-info.txt
     f4b575c | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:50:18Z | #
     66eceb8 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T18:42:18Z | Auto-update branch-info.txt
     98b503c | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:41:49Z | Merge branch 'main' of https://github.com/Lunar8182/lab7
-    3484324 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:41:12Z | fixes again
