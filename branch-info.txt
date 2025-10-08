@@ -17,11 +17,11 @@ Branches in this repo (with details):
     6c36dc7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T14:02:28Z | Auto-update branch-info.txt
     7b7e4a9 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-06T10:02:16-04:00 | Initial commit
 - main
-  SHA: 117c925fa338b2ba180c48e8000fcb523a9dae7c
-  Commits: 16
+  SHA: 98b503c1d837e182a882053892e20b80dadd14e9
+  Commits: 19
   Recent commits:
+    98b503c | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:41:49Z | Merge branch 'main' of https://github.com/Lunar8182/lab7
+    3484324 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:41:12Z | fixes again
+    5820340 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T01:09:50Z | Auto-update branch-info.txt
     117c925 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T00:54:39Z | Auto-update branch-info.txt
     bc5485f | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T00:54:16Z | fixes
-    f6cc199 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T19:02:35Z | Auto-update branch-info.txt
-    4801dc5 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-07T19:02:15Z | Merge branch 'main' of https://github.com/Lunar8182/lab7
-    3a63bb2 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T19:01:09Z | Auto-update branch-info.txt
