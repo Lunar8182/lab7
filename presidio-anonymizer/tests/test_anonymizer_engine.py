@@ -158,7 +158,7 @@ def test_given_several_results_then_we_filter_them_and_get_correct_mocked_result
     assert result.items[0].start == 0
     assert result.items[0].end == 35
     assert result.items[0].text == "text"
-#t
+
 
 @pytest.mark.parametrize(
     # fmt: off
@@ -285,7 +285,7 @@ def test_given_conflict_input_then_merged_correctly(mock_logger):
    ]
     anonymizer_result = engine.anonymize(text, original_analyzer_results)
     assert anonymizer_result.text == "I'm <LOCATION>."
-    assert mock_logger.debug.called_once()
+    mock_logger.debug.assert_called_once()
 
 def _operate(
     text: str,
