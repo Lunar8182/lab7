@@ -287,7 +287,7 @@ def test_given_negative_start_or_endpoint_then_we_fail(start, end):
         create_recognizer_result("entity", 0, start, end)
 
 from unittest import mock
-@mock.patch.object("presidio_anonymizer.operators.encrypt.logger")
+@mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
 
     create_recognizer_result(entity_type="entity", score=0.85, start=0, end=10)
