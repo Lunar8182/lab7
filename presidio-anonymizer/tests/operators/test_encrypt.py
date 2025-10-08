@@ -24,6 +24,9 @@ def test_given_anonymize_with_bytes_key_then_aes_encrypt_result_is_returned(
 ):
     expected_anonymized_text = "encrypted_text"
     mock_encrypt.return_value = expected_anonymized_text
+    encryptor = Encrypt()
+    encryptor.validate(params={"key": "key"})  
+
 
     anonymized_text = Encrypt().operate(text="text",
                                         params={"key": b'1111111111111111'})

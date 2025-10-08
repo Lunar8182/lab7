@@ -1,3 +1,4 @@
+from asyncio.log import logger
 import pytest
 
 from presidio_anonymizer.entities import InvalidParamError, RecognizerResult
@@ -296,7 +297,14 @@ def test_logger(mock_logger):
     assert "start=0" in logged_msg
     assert "end=10" in logged_msg
     assert "score=0.00" in logged_msg
+import logging
+logger = logging.getLogger(__name__)
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
+    
+    logger.info(
+        f"Creating recognizer result: entity_type='{entity_type}', "
+        f"score={score:.2f}, start={start}, end={end}"
+    )
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)
