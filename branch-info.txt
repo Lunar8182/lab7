@@ -17,11 +17,11 @@ Branches in this repo (with details):
     af11e31 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T18:47:10Z | fixing the lab7 branch
     17f9dbb | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T01:08:57Z | more fixes
 - main
-  SHA: c94296222b985c13cc12b08d164882d8207969ef
-  Commits: 42
+  SHA: fa1c81325fdbe0335465ab0033c1a8b0a1e44eac
+  Commits: 44
   Recent commits:
+    fa1c813 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T19:13:51Z | #
+    39c401e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T19:10:06Z | Auto-update branch-info.txt
     c942962 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T19:09:44Z | gMerge branch 'main' of https://github.com/Lunar8182/lab7
     194f0e7 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T19:09:39Z | #
     51f92bc | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T19:09:00Z | Auto-update branch-info.txt
-    db786d1 | Author: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Committer: Chase Kowalsky <231607559+Lunar8182@users.noreply.github.com> | Date: 2025-10-08T19:08:46Z | #
-    cbf723e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-08T19:07:50Z | Auto-update branch-info.txt
