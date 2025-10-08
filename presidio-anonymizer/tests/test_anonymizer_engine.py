@@ -285,7 +285,7 @@ def test_given_conflict_input_then_merged_correctly(mock_logger):
    ]
     anonymizer_result = engine.anonymize(text, original_analyzer_results)
     assert anonymizer_result.text == "I'm <LOCATION>."
-    mock_logger.info.call_count == 1
+    mock_logger.debug.called_once()
 
 def _operate(
     text: str,
